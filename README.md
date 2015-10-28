@@ -1,6 +1,30 @@
 # GreedLog
 log for ios
-# History
-developing...
+# Usage
+[GRLog.h](https://github.com/greedlab/GreedLog/blob/master/GreedLog/GRLog.h)
+
+```objc
+#import "GRLog.h"
+
+- (void)testLog
+{
+    [GRLog setGRLogLevel:GRLogLevelDebug];
+    GRLog(@"Demo for GRLog");
+    GRLogEmergency(@"Demo for GRLogEmergency");
+    GRLogAlert(@"Demo for GRLogAlert");
+    GRLogCritical(@"Demo for GRLogCritical");
+    GRLogError(@"Demo for GRLogError");
+    GRLogWarning(@"Demo for GRLogWarning");
+    GRLogNotice(@"Demo for GRLogNotice");
+    GRLogInfo(@"Demo for GRLogInfo");
+    GRLogDebug(@"Demo for GRLogDebug");
+    NSLog(@"Demo for NSLog");
+}
+
+```
+
+# Release Notes
+* 0.0.1 first version
+
 # LICENSE
 MIT
