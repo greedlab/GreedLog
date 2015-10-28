@@ -1,4 +1,4 @@
-# GreedLog
+# GreedLog [![Build Status](https://travis-ci.org/greedlab/GreedLog.svg?branch=master)](https://travis-ci.org/greedlab/GreedLog)
 log for ios
 # Usage
 [GRLog.h](https://github.com/greedlab/GreedLog/blob/master/GreedLog/GRLog.h)
