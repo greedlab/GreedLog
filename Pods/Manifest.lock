@@ -1,0 +1,14 @@
+PODS:
+  - GreedLog (0.0.1)
+
+DEPENDENCIES:
+  - GreedLog (from `./`)
+
+EXTERNAL SOURCES:
+  GreedLog:
+    :path: ./
+
+SPEC CHECKSUMS:
+  GreedLog: 358347fdbfc9a915f8d33fc276151c3433bddc15
+
+COCOAPODS: 0.39.0
