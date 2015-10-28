@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.name         = "GreedLog"
   s.version      = "0.0.1"
   s.summary      = "log for iOS"
-  s.description  = %{log for iOS }
+  s.description  = %{log more info for iOS }
   s.homepage     = "https://github.com/greedlab/GreedLog"
   s.license      = "MIT"
   s.author       = { "Bell" => "bell@greedlab.com" }

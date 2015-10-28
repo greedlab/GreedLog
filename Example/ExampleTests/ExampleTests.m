@@ -39,6 +39,7 @@
 
 - (void)testLog
 {
+    [GRLog setGRLogLevel:GRLogLevelDebug];
     GRLog(@"Demo for GRLog");
     GRLogEmergency(@"Demo for GRLogEmergency");
     GRLogAlert(@"Demo for GRLogAlert");
