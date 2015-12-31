@@ -32,9 +32,6 @@ static FILE *fp = NULL;
             case GRLogLevelNone:
                 levelStr = nil;
                 break;
-            case GRLogLevelDefault:
-                levelStr = @"";
-                break;
             case GRLogLevelEmergency:
                 levelStr = [NSString stringWithFormat:@"<%@>",[NSString stringWithUTF8String:ASL_STRING_EMERG]];
                 break;

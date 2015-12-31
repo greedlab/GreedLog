@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #include <asl.h>
 
-typedef NS_ENUM(NSUInteger, GRLogLevel) {
+typedef NS_ENUM(NSInteger, GRLogLevel) {
     GRLogLevelNone = -2, // 都不显示
     GRLogLevelDefault = -1, // 只显示GRLog
     GRLogLevelEmergency = ASL_LEVEL_EMERG,
@@ -31,7 +31,6 @@ typedef NS_ENUM(NSUInteger, GRLogStyle) {
 //#undef NSLog
 //#define NSLog(args...) GRLog(args...)
 //#endif
-
 
 #ifndef GRLog
 #define GRLog(args...) [GRLog logWithFileName:[NSString stringWithUTF8String:__FILE__] lineNumber:__LINE__ method:[NSString stringWithUTF8String:__PRETTY_FUNCTION__] logLevel:GRLogLevelDefault format:args];
