@@ -1,0 +1,6 @@
+framework module GreedLog {
+  umbrella header "GreedLog-umbrella.h"
+
+  export *
+  module * { export * }
+}

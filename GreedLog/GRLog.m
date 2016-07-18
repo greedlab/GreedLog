@@ -84,13 +84,13 @@ static FILE *fp = NULL;
         [dateFormatter setDateFormat:@"yyyy-MM-dd HH:mm:ss"];
         NSString *dateStr = [dateFormatter stringFromDate:[NSDate date]];
         if (fp) {
-            fprintf(fp, "%s %s:%lu%s%s %s\n",[dateStr UTF8String], [realfileName UTF8String], (unsigned long)lineNumber, [method UTF8String], [levelStr UTF8String], [body UTF8String]);
+            fprintf(fp, "%s %s:%lu%s%s \n %s\n",[dateStr UTF8String], [realfileName UTF8String], (unsigned long)lineNumber, [method UTF8String], [levelStr UTF8String], [body UTF8String]);
             fflush(fp);
         } else {
-            fprintf(stderr, "%s %s:%lu%s%s %s\n",[dateStr UTF8String], [realfileName UTF8String], (unsigned long)lineNumber, [method UTF8String], [levelStr UTF8String], [body UTF8String]);
+            fprintf(stderr, "%s %s:%lu%s%s \n %s\n",[dateStr UTF8String], [realfileName UTF8String], (unsigned long)lineNumber, [method UTF8String], [levelStr UTF8String], [body UTF8String]);
         }
     } else {
-        NSLog(@"%s:%lu%s%@ %s\n",[realfileName UTF8String], (unsigned long)lineNumber, [method UTF8String], levelStr, [body UTF8String]);
+        NSLog(@"%s:%lu%s%@ \n %s\n",[realfileName UTF8String], (unsigned long)lineNumber, [method UTF8String], levelStr, [body UTF8String]);
     }
 }
 

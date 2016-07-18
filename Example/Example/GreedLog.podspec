@@ -11,7 +11,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/greedlab/GreedLog.git", :tag => s.version }
   s.source_files  = "GreedLog", "GreedLog/*.{h,m}"
   s.framework  = "Foundation"
-#  s.library = ["c","z"]
   s.requires_arc = true
 
 end

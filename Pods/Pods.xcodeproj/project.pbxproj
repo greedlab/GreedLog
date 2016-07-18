@@ -7,94 +7,113 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		29BE3EBEEC3B95792E457D226278FAD3 /* GRLog.h in Headers */ = {isa = PBXBuildFile; fileRef = A8DDC536B9AABAEF4885DED298E2A719 /* GRLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		48546FB51E80D61E72EAF8F643FB9A4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		5977C75655E22385D935717F26073B02 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */; };
-		A41D43796BC582D1028082299F100475 /* GreedLog-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 563FA63E0872EA970B436927F945606F /* GreedLog-dummy.m */; };
-		DBB26D41253ABC5334EE079B55E22FA3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		EDD279613D10D29A88C72D795E741D73 /* GRLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A97EAA4D06114E22ED7F6209E412BD0 /* GRLog.m */; };
+		04810B1B1D3C6D2C008FB334 /* libc.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 04810B191D3C6CF1008FB334 /* libc.tbd */; };
+		37486FB3A5E2B1231F67989796EA7F62 /* GRLog.h in Headers */ = {isa = PBXBuildFile; fileRef = D025736B24ADF5C503756AE5A99A8E5C /* GRLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C734DFA2AACF80CCEFF85183E19C713 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		42A0D3820557394B8A007EB0B0B4001B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		5604AD84C1307C2FB3A7DBE76046553B /* GreedLog-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F0B1D6701E311841D612AD1BEA6F19 /* GreedLog-dummy.m */; };
+		89632099FDC6759AF5BBB81FB3938638 /* GreedLog-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 57D5CFC2A2DDBF81F354EE8B6661B18F /* GreedLog-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95B859C01E37E0D61AEBCE1E396178CD /* GRLog.m in Sources */ = {isa = PBXBuildFile; fileRef = D02ED18F141515A4F17EEE6C4E140628 /* GRLog.m */; };
+		975CFA68962EE0E8ACE68964950A320C /* Pods-Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C9BDE82371C83FA9AE91B05F77ACAA36 /* Pods-Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6CA6386BD1336ABC0290185E3326DD5 /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 699118D7DDD5F335E4FB8B17DC0F12D2 /* Pods-Example-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4160369BE03404575E1DCBD50D2AA413 /* PBXContainerItemProxy */ = {
+		9AE435F885FA1646E6E3AE3A4FBA8E72 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = ACB226E651A2EE7433936178F2581361;
+			remoteGlobalIDString = 67F90FBE2AB08E379BF8B9F75078A891;
 			remoteInfo = GreedLog;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		08AB16466B010667A821EABB9038EB2C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		0A97EAA4D06114E22ED7F6209E412BD0 /* GRLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GRLog.m; sourceTree = "<group>"; };
-		10834806BD7B412BC24F347361FA2C8E /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
-		272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
-		37DB56D75062CC75FCB0966E1C6E8A8E /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
-		563FA63E0872EA970B436927F945606F /* GreedLog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GreedLog-dummy.m"; sourceTree = "<group>"; };
-		6911BECA35E7518D864239B7E898EEF3 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
-		82729B31D4EE2B2B59C37989A3FB5D1D /* GreedLog.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GreedLog.xcconfig; sourceTree = "<group>"; };
-		98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
-		A1A36D34413696BE466E2CA0AFF194DA /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
-		A8DDC536B9AABAEF4885DED298E2A719 /* GRLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GRLog.h; sourceTree = "<group>"; };
-		AD312F5CC79C4843AB6EA1DF3E58E57D /* libGreedLog.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGreedLog.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BDD5E5DA8D5D2EF5045950C044AD4EBF /* GreedLog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GreedLog-prefix.pch"; sourceTree = "<group>"; };
+		01E6907CF2644EB1CF8E23F708A3DA0B /* Pods-Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-resources.sh"; sourceTree = "<group>"; };
+		04810B191D3C6CF1008FB334 /* libc.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libc.tbd; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/lib/libc.tbd; sourceTree = DEVELOPER_DIR; };
+		04F0B1D6701E311841D612AD1BEA6F19 /* GreedLog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GreedLog-dummy.m"; sourceTree = "<group>"; };
+		119072C64A19799964E1620D83F514FB /* Pods-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Example.modulemap"; sourceTree = "<group>"; };
+		149054C495E8EC590CAB4C524133016F /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
+		1C9227794BAA401A16CA588CAAD0DCB2 /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C20A70AD51C841D42819C20E88D1A9C /* GreedLog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = GreedLog.modulemap; sourceTree = "<group>"; };
+		4A350F038F218F26D634894CC0D50FB7 /* GreedLog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GreedLog-prefix.pch"; sourceTree = "<group>"; };
+		4CE90749CBEF6F665E1E2F62C400947F /* GreedLog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GreedLog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		552550F3F912264E5D073F8893691F88 /* Pods-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-frameworks.sh"; sourceTree = "<group>"; };
+		57D5CFC2A2DDBF81F354EE8B6661B18F /* GreedLog-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GreedLog-umbrella.h"; sourceTree = "<group>"; };
+		58142B5B65F6E77A546BFD0D76B54166 /* GreedLog.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GreedLog.xcconfig; sourceTree = "<group>"; };
+		699118D7DDD5F335E4FB8B17DC0F12D2 /* Pods-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-dummy.m"; sourceTree = "<group>"; };
+		764D33E23CE6C1111110B04F5CBADADB /* Pods-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A661FECCEBFF9D01869EE3B29C4C1EFF /* Pods-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C4829B2617437B48E2823A93F4D072E3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9BDE82371C83FA9AE91B05F77ACAA36 /* Pods-Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Example-umbrella.h"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D025736B24ADF5C503756AE5A99A8E5C /* GRLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GRLog.h; sourceTree = "<group>"; };
+		D02ED18F141515A4F17EEE6C4E140628 /* GRLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GRLog.m; sourceTree = "<group>"; };
+		E512A5F985F876750237FD237C3AEEDA /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
+		EFFB74AAA6B2AE8DABF0E88E61E09178 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2C3084560A2ACA1F0187E5DE97ABB401 /* Frameworks */ = {
+		82600962CCF0079802CD6F05AC932145 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBB26D41253ABC5334EE079B55E22FA3 /* Foundation.framework in Frameworks */,
+				04810B1B1D3C6D2C008FB334 /* libc.tbd in Frameworks */,
+				3C734DFA2AACF80CCEFF85183E19C713 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		36B72D9C48130643F4AB9F1529000E4F /* Frameworks */ = {
+		E8A456A63566BBD1F28257F35876CDBE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48546FB51E80D61E72EAF8F643FB9A4D /* Foundation.framework in Frameworks */,
+				42A0D3820557394B8A007EB0B0B4001B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		037C0CA694176A3C0915F62C9D20B3E6 /* Targets Support Files */ = {
+		09ED388B2BC57CC7E135DD6B6CBB7AC2 /* GreedLog */ = {
 			isa = PBXGroup;
 			children = (
-				B3D1D13E0C6553800746CB8FD61CF946 /* Pods */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		071EBFE1730FB63022F3EC9615C2C792 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				AD312F5CC79C4843AB6EA1DF3E58E57D /* libGreedLog.a */,
-				08AB16466B010667A821EABB9038EB2C /* libPods.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		516C0124C55D835967622B5937AF21D8 /* GreedLog */ = {
-			isa = PBXGroup;
-			children = (
-				FEEF0F00CAA12AABFA75E67E854833B1 /* GreedLog */,
-				D2F8A2D667D35CEDB624754A17021ABA /* Support Files */,
+				5BD905A58D7B16AAEED8495003E40EDC /* GreedLog */,
+				BCE40F259F68AE1096D502501B79E4C2 /* Support Files */,
 			);
 			name = GreedLog;
 			path = ..;
 			sourceTree = "<group>";
 		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5BD905A58D7B16AAEED8495003E40EDC /* GreedLog */ = {
+			isa = PBXGroup;
+			children = (
+				D025736B24ADF5C503756AE5A99A8E5C /* GRLog.h */,
+				D02ED18F141515A4F17EEE6C4E140628 /* GRLog.m */,
+			);
+			path = GreedLog;
+			sourceTree = "<group>";
+		};
+		6A4F6A14E3FB951290E4531728B7A461 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE9811ABEB5931E154211FCA14B78350 /* Pods-Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 		7C69CF45B8FD3C11D58D21A1C6E1B10F /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				516C0124C55D835967622B5937AF21D8 /* GreedLog */,
+				09ED388B2BC57CC7E135DD6B6CBB7AC2 /* GreedLog */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -102,103 +121,112 @@
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
-				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				7C69CF45B8FD3C11D58D21A1C6E1B10F /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				071EBFE1730FB63022F3EC9615C2C792 /* Products */,
-				037C0CA694176A3C0915F62C9D20B3E6 /* Targets Support Files */,
+				92F3372ADA9E6F91EB95F5CAF4608202 /* Products */,
+				6A4F6A14E3FB951290E4531728B7A461 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		B3D1D13E0C6553800746CB8FD61CF946 /* Pods */ = {
+		92F3372ADA9E6F91EB95F5CAF4608202 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				37DB56D75062CC75FCB0966E1C6E8A8E /* Pods-acknowledgements.markdown */,
-				10834806BD7B412BC24F347361FA2C8E /* Pods-acknowledgements.plist */,
-				272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */,
-				6911BECA35E7518D864239B7E898EEF3 /* Pods-frameworks.sh */,
-				A1A36D34413696BE466E2CA0AFF194DA /* Pods-resources.sh */,
-				4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */,
-				98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */,
+				4CE90749CBEF6F665E1E2F62C400947F /* GreedLog.framework */,
+				1C9227794BAA401A16CA588CAAD0DCB2 /* Pods_Example.framework */,
 			);
-			name = Pods;
-			path = "Target Support Files/Pods";
+			name = Products;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+				04810B191D3C6CF1008FB334 /* libc.tbd */,
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+		BCE40F259F68AE1096D502501B79E4C2 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		D2F8A2D667D35CEDB624754A17021ABA /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				82729B31D4EE2B2B59C37989A3FB5D1D /* GreedLog.xcconfig */,
-				563FA63E0872EA970B436927F945606F /* GreedLog-dummy.m */,
-				BDD5E5DA8D5D2EF5045950C044AD4EBF /* GreedLog-prefix.pch */,
+				2C20A70AD51C841D42819C20E88D1A9C /* GreedLog.modulemap */,
+				58142B5B65F6E77A546BFD0D76B54166 /* GreedLog.xcconfig */,
+				04F0B1D6701E311841D612AD1BEA6F19 /* GreedLog-dummy.m */,
+				4A350F038F218F26D634894CC0D50FB7 /* GreedLog-prefix.pch */,
+				57D5CFC2A2DDBF81F354EE8B6661B18F /* GreedLog-umbrella.h */,
+				C4829B2617437B48E2823A93F4D072E3 /* Info.plist */,
 			);
 			name = "Support Files";
 			path = "Pods/Target Support Files/GreedLog";
 			sourceTree = "<group>";
 		};
-		FEEF0F00CAA12AABFA75E67E854833B1 /* GreedLog */ = {
+		FE9811ABEB5931E154211FCA14B78350 /* Pods-Example */ = {
 			isa = PBXGroup;
 			children = (
-				A8DDC536B9AABAEF4885DED298E2A719 /* GRLog.h */,
-				0A97EAA4D06114E22ED7F6209E412BD0 /* GRLog.m */,
+				EFFB74AAA6B2AE8DABF0E88E61E09178 /* Info.plist */,
+				119072C64A19799964E1620D83F514FB /* Pods-Example.modulemap */,
+				A661FECCEBFF9D01869EE3B29C4C1EFF /* Pods-Example-acknowledgements.markdown */,
+				764D33E23CE6C1111110B04F5CBADADB /* Pods-Example-acknowledgements.plist */,
+				699118D7DDD5F335E4FB8B17DC0F12D2 /* Pods-Example-dummy.m */,
+				552550F3F912264E5D073F8893691F88 /* Pods-Example-frameworks.sh */,
+				01E6907CF2644EB1CF8E23F708A3DA0B /* Pods-Example-resources.sh */,
+				C9BDE82371C83FA9AE91B05F77ACAA36 /* Pods-Example-umbrella.h */,
+				149054C495E8EC590CAB4C524133016F /* Pods-Example.debug.xcconfig */,
+				E512A5F985F876750237FD237C3AEEDA /* Pods-Example.release.xcconfig */,
 			);
-			path = GreedLog;
+			name = "Pods-Example";
+			path = "Target Support Files/Pods-Example";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		CD9ED3AE0FD7D9AA22857D9CFD9E9A41 /* Headers */ = {
+		79184ACEDED58BC8BC4B3C19FC2E944D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29BE3EBEEC3B95792E457D226278FAD3 /* GRLog.h in Headers */,
+				975CFA68962EE0E8ACE68964950A320C /* Pods-Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F56F1C3378389B3DC94D5096E40E957F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89632099FDC6759AF5BBB81FB3938638 /* GreedLog-umbrella.h in Headers */,
+				37486FB3A5E2B1231F67989796EA7F62 /* GRLog.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		21253872E4E2EFE08A2D07F589F4DD52 /* Pods */ = {
+		055CB6C3E5B4BE961A1A961FC5D0572E /* Pods-Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F315344ED307EE4E5BFC893A544CE86C /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildConfigurationList = 9B06E9AD80F985D47BEDF5A5FB05814F /* Build configuration list for PBXNativeTarget "Pods-Example" */;
 			buildPhases = (
-				668BA7FB094E3896864282E7E91781A0 /* Sources */,
-				36B72D9C48130643F4AB9F1529000E4F /* Frameworks */,
+				AD33AC5D2C93B442C826C26E7EAF86E7 /* Sources */,
+				E8A456A63566BBD1F28257F35876CDBE /* Frameworks */,
+				79184ACEDED58BC8BC4B3C19FC2E944D /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DAA7A1316D4047E1A19EA41FCC08F12D /* PBXTargetDependency */,
+				91808C6D98E98651B0F0891BF8BD80F7 /* PBXTargetDependency */,
 			);
-			name = Pods;
-			productName = Pods;
-			productReference = 08AB16466B010667A821EABB9038EB2C /* libPods.a */;
-			productType = "com.apple.product-type.library.static";
+			name = "Pods-Example";
+			productName = "Pods-Example";
+			productReference = 1C9227794BAA401A16CA588CAAD0DCB2 /* Pods_Example.framework */;
+			productType = "com.apple.product-type.framework";
 		};
-		ACB226E651A2EE7433936178F2581361 /* GreedLog */ = {
+		67F90FBE2AB08E379BF8B9F75078A891 /* GreedLog */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 688B80F6D4E4023A2023D0A781FC6A12 /* Build configuration list for PBXNativeTarget "GreedLog" */;
+			buildConfigurationList = 893E82B45079D706395255D948CA3FFA /* Build configuration list for PBXNativeTarget "GreedLog" */;
 			buildPhases = (
-				D9BD21195CD8BF113A52811534F4A425 /* Sources */,
-				2C3084560A2ACA1F0187E5DE97ABB401 /* Frameworks */,
-				CD9ED3AE0FD7D9AA22857D9CFD9E9A41 /* Headers */,
+				267A2D63EED2F3AC235CE5D3CCE663DD /* Sources */,
+				82600962CCF0079802CD6F05AC932145 /* Frameworks */,
+				F56F1C3378389B3DC94D5096E40E957F /* Headers */,
 			);
 			buildRules = (
 			);
@@ -206,8 +234,8 @@
 			);
 			name = GreedLog;
 			productName = GreedLog;
-			productReference = AD312F5CC79C4843AB6EA1DF3E58E57D /* libGreedLog.a */;
-			productType = "com.apple.product-type.library.static";
+			productReference = 4CE90749CBEF6F665E1E2F62C400947F /* GreedLog.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -215,7 +243,7 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0700;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
@@ -226,103 +254,146 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 071EBFE1730FB63022F3EC9615C2C792 /* Products */;
+			productRefGroup = 92F3372ADA9E6F91EB95F5CAF4608202 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ACB226E651A2EE7433936178F2581361 /* GreedLog */,
-				21253872E4E2EFE08A2D07F589F4DD52 /* Pods */,
+				67F90FBE2AB08E379BF8B9F75078A891 /* GreedLog */,
+				055CB6C3E5B4BE961A1A961FC5D0572E /* Pods-Example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		668BA7FB094E3896864282E7E91781A0 /* Sources */ = {
+		267A2D63EED2F3AC235CE5D3CCE663DD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5977C75655E22385D935717F26073B02 /* Pods-dummy.m in Sources */,
+				5604AD84C1307C2FB3A7DBE76046553B /* GreedLog-dummy.m in Sources */,
+				95B859C01E37E0D61AEBCE1E396178CD /* GRLog.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D9BD21195CD8BF113A52811534F4A425 /* Sources */ = {
+		AD33AC5D2C93B442C826C26E7EAF86E7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A41D43796BC582D1028082299F100475 /* GreedLog-dummy.m in Sources */,
-				EDD279613D10D29A88C72D795E741D73 /* GRLog.m in Sources */,
+				E6CA6386BD1336ABC0290185E3326DD5 /* Pods-Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		DAA7A1316D4047E1A19EA41FCC08F12D /* PBXTargetDependency */ = {
+		91808C6D98E98651B0F0891BF8BD80F7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GreedLog;
-			target = ACB226E651A2EE7433936178F2581361 /* GreedLog */;
-			targetProxy = 4160369BE03404575E1DCBD50D2AA413 /* PBXContainerItemProxy */;
+			target = 67F90FBE2AB08E379BF8B9F75078A891 /* GreedLog */;
+			targetProxy = 9AE435F885FA1646E6E3AE3A4FBA8E72 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1221EB978B976025BAE9554E3C564CA6 /* Debug */ = {
+		2CAEFBE92EEF9107A17E13216BE9DD59 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 149054C495E8EC590CAB4C524133016F /* Pods-Example.debug.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Example/Pods-Example.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		13C59A21891B9F8513D6F26DA439ACA8 /* Debug */ = {
+		4D2BCD1A5387A6802AFC1640CD2CA611 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 82729B31D4EE2B2B59C37989A3FB5D1D /* GreedLog.xcconfig */;
+			baseConfigurationReference = E512A5F985F876750237FD237C3AEEDA /* Pods-Example.release.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/GreedLog/GreedLog-prefix.pch";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		518A086B591601E3C33AB87B2D22E8DE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 82729B31D4EE2B2B59C37989A3FB5D1D /* GreedLog.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/GreedLog/GreedLog-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Example/Pods-Example.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		6569F07DC21AD8B72752685013E3D9D8 /* Debug */ = {
+		A5D18BD7FFFD97608ED1F4073DE4EF10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58142B5B65F6E77A546BFD0D76B54166 /* GreedLog.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GreedLog/GreedLog-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GreedLog/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GreedLog/GreedLog.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = GreedLog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B569ECED6DF5EC7ABDDF8C8957E26574 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -336,11 +407,83 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E61FBB9B2A5258917E192AA0E7270615 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58142B5B65F6E77A546BFD0D76B54166 /* GreedLog.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GreedLog/GreedLog-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GreedLog/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GreedLog/GreedLog.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = GreedLog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FD5B3B1E89981BCDBC5C396B164D3C37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
 					"DEBUG=1",
 					"$(inherited)",
 				);
@@ -353,61 +496,11 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
-		};
-		76079CF2BDB5630A9F40351B5E248BAA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		A14E2444F162A20E3776820E0ADFFB52 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -415,26 +508,26 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6569F07DC21AD8B72752685013E3D9D8 /* Debug */,
-				A14E2444F162A20E3776820E0ADFFB52 /* Release */,
+				FD5B3B1E89981BCDBC5C396B164D3C37 /* Debug */,
+				B569ECED6DF5EC7ABDDF8C8957E26574 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		688B80F6D4E4023A2023D0A781FC6A12 /* Build configuration list for PBXNativeTarget "GreedLog" */ = {
+		893E82B45079D706395255D948CA3FFA /* Build configuration list for PBXNativeTarget "GreedLog" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				13C59A21891B9F8513D6F26DA439ACA8 /* Debug */,
-				518A086B591601E3C33AB87B2D22E8DE /* Release */,
+				A5D18BD7FFFD97608ED1F4073DE4EF10 /* Debug */,
+				E61FBB9B2A5258917E192AA0E7270615 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F315344ED307EE4E5BFC893A544CE86C /* Build configuration list for PBXNativeTarget "Pods" */ = {
+		9B06E9AD80F985D47BEDF5A5FB05814F /* Build configuration list for PBXNativeTarget "Pods-Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1221EB978B976025BAE9554E3C564CA6 /* Debug */,
-				76079CF2BDB5630A9F40351B5E248BAA /* Release */,
+				2CAEFBE92EEF9107A17E13216BE9DD59 /* Debug */,
+				4D2BCD1A5387A6802AFC1640CD2CA611 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

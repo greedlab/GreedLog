@@ -33,55 +33,55 @@ typedef NS_ENUM(NSUInteger, GRLogStyle) {
 //#endif
 
 #ifndef GRLog
-#define GRLog(args...) [GRLog logWithFileName:[NSString stringWithUTF8String:__FILE__] lineNumber:__LINE__ method:[NSString stringWithUTF8String:__PRETTY_FUNCTION__] logLevel:GRLogLevelDefault format:args];
+#define GRLog(args...) [GRLog logWithFileName:[NSString stringWithUTF8String:__FILE__] lineNumber:__LINE__ method:[NSString stringWithUTF8String:__PRETTY_FUNCTION__] logLevel:GRLogLevelDefault format:args]
 #else
 #define GRLog(x...)
 #endif
 
 #ifndef GRLogEmergency
-#define GRLogEmergency(args...) [GRLog logWithFileName:[NSString stringWithUTF8String:__FILE__] lineNumber:__LINE__ method:[NSString stringWithUTF8String:__PRETTY_FUNCTION__] logLevel:GRLogLevelEmergency format:args];
+#define GRLogEmergency(args...) [GRLog logWithFileName:[NSString stringWithUTF8String:__FILE__] lineNumber:__LINE__ method:[NSString stringWithUTF8String:__PRETTY_FUNCTION__] logLevel:GRLogLevelEmergency format:args]
 #else
 #define GRLogEmergency(x...)
 #endif // GRLogEmergency
 
 #ifndef GRLogAlert
-#define GRLogAlert(args...) [GRLog logWithFileName:[NSString stringWithUTF8String:__FILE__] lineNumber:__LINE__ method:[NSString stringWithUTF8String:__PRETTY_FUNCTION__] logLevel:GRLogLevelAlert format:args];
+#define GRLogAlert(args...) [GRLog logWithFileName:[NSString stringWithUTF8String:__FILE__] lineNumber:__LINE__ method:[NSString stringWithUTF8String:__PRETTY_FUNCTION__] logLevel:GRLogLevelAlert format:args]
 #else
 #define GRLogAlert(x...)
 #endif // GRLogAlert
 
 #ifndef GRLogCritical
-#define GRLogCritical(args...) [GRLog logWithFileName:[NSString stringWithUTF8String:__FILE__] lineNumber:__LINE__ method:[NSString stringWithUTF8String:__PRETTY_FUNCTION__] logLevel:GRLogLevelCritical format:args];
+#define GRLogCritical(args...) [GRLog logWithFileName:[NSString stringWithUTF8String:__FILE__] lineNumber:__LINE__ method:[NSString stringWithUTF8String:__PRETTY_FUNCTION__] logLevel:GRLogLevelCritical format:args]
 #else
 #define GRLogCritical(x...)
 #endif // GRLogCritical
 
 #ifndef GRLogError
-#define GRLogError(args...) [GRLog logWithFileName:[NSString stringWithUTF8String:__FILE__] lineNumber:__LINE__ method:[NSString stringWithUTF8String:__PRETTY_FUNCTION__] logLevel:GRLogLevelError format:args];
+#define GRLogError(args...) [GRLog logWithFileName:[NSString stringWithUTF8String:__FILE__] lineNumber:__LINE__ method:[NSString stringWithUTF8String:__PRETTY_FUNCTION__] logLevel:GRLogLevelError format:args]
 #else
 #define GRLogError(x...)
 #endif // GRLogError
 
 #ifndef GRLogWarning
-#define GRLogWarning(args...) [GRLog logWithFileName:[NSString stringWithUTF8String:__FILE__] lineNumber:__LINE__ method:[NSString stringWithUTF8String:__PRETTY_FUNCTION__] logLevel:GRLogLevelWarning format:args];
+#define GRLogWarning(args...) [GRLog logWithFileName:[NSString stringWithUTF8String:__FILE__] lineNumber:__LINE__ method:[NSString stringWithUTF8String:__PRETTY_FUNCTION__] logLevel:GRLogLevelWarning format:args]
 #else
 #define GRLogWarning(x...)
 #endif // GRLogWarning
 
 #ifndef GRLogNotice
-#define GRLogNotice(args...) [GRLog logWithFileName:[NSString stringWithUTF8String:__FILE__] lineNumber:__LINE__ method:[NSString stringWithUTF8String:__PRETTY_FUNCTION__] logLevel:GRLogLevelNotice format:args];
+#define GRLogNotice(args...) [GRLog logWithFileName:[NSString stringWithUTF8String:__FILE__] lineNumber:__LINE__ method:[NSString stringWithUTF8String:__PRETTY_FUNCTION__] logLevel:GRLogLevelNotice format:args]
 #else
 #define GRLogNotice(x...)
 #endif // GRLogNotice
 
 #ifndef GRLogInfo
-#define GRLogInfo(args...) [GRLog logWithFileName:[NSString stringWithUTF8String:__FILE__] lineNumber:__LINE__ method:[NSString stringWithUTF8String:__PRETTY_FUNCTION__] logLevel:GRLogLevelInfo format:args];
+#define GRLogInfo(args...) [GRLog logWithFileName:[NSString stringWithUTF8String:__FILE__] lineNumber:__LINE__ method:[NSString stringWithUTF8String:__PRETTY_FUNCTION__] logLevel:GRLogLevelInfo format:args]
 #else
 #define GRLogInfo(x...)
 #endif // GRLogInfo
 
 #ifndef GRLogDebug
-#define GRLogDebug(args...) [GRLog logWithFileName:[NSString stringWithUTF8String:__FILE__] lineNumber:__LINE__ method:[NSString stringWithUTF8String:__PRETTY_FUNCTION__] logLevel:GRLogLevelDebug format:args];
+#define GRLogDebug(args...) [GRLog logWithFileName:[NSString stringWithUTF8String:__FILE__] lineNumber:__LINE__ method:[NSString stringWithUTF8String:__PRETTY_FUNCTION__] logLevel:GRLogLevelDebug format:args]
 #else
 #define GRLogDebug(x...)
 #endif // GRLogDebug
